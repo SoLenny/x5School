@@ -16,7 +16,7 @@ public class Main {
         //System.out.println(getSmallestNumber(new int[]{a, b, c}));
         //для 8
         //getCustomInfo();
-        //для 9
+        //для 9 
         for (int i : revert()) {
             System.out.print(i + " ");
         }
