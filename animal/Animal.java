@@ -1,8 +1,8 @@
-package animal;
+package task3(2).animal;
 
 public class Animal {
-    String food;
-    String location;
+    private String food;
+    private String location;
 
     public void makeNoise() {
         System.out.println("Noise emitted");
