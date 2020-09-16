@@ -1,8 +1,8 @@
 package Car;
 
 public abstract class Car {
-    String TURN_RIGHT = "Поворот направо";
-    String TURN_LEFT = "Поворот налево";
+    String TURN_RIGHT = "Turn right";
+    String TURN_LEFT = "Turn left";
     String carModel;
     String carClass;
     int weight;

@@ -2,8 +2,8 @@ package student;
 
 public class Info {
     public static void main(String[] args) {
-        Student student = new Student();
-        Student aspirant = new Aspirant();
+        Student student = new Student("Mary", "Sutter", "first", 5);
+        Student aspirant = new Aspirant("Gvan", "Loff", "third",5);
         student.setAverageMark(4);
         aspirant.setAverageMark(5);
         Student[] students = new Student[]{student, aspirant};
