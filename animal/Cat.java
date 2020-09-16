@@ -1,9 +1,12 @@
 package animal;
 
 public class Cat extends Animal {
-    String name = "Киса";
-    String food = "Кошачий корм";
-    String location = " и лежит на лежанке";
+   private String name ;
+
+    public Cat(String food, String location, String name) {
+        super(food, location);
+        this.name = name;
+    }
 
     @Override
     public void makeNoise() {
@@ -12,7 +15,7 @@ public class Cat extends Animal {
 
     @Override
     public void eat() {
-        System.out.println(name + " съел " + food);
+        System.out.println(name + " съел " + getFood());
     }
 
     public String getName() {
@@ -20,10 +23,10 @@ public class Cat extends Animal {
     }
 
     public String getFood() {
-        return food;
+        return getFood();
     }
 
     public String getLocation() {
-        return location;
+        return getLocation();
     }
 }
